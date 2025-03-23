@@ -28,23 +28,20 @@ function Main() {
         <div className="text-container">
          
           <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        '    This is a sample paragraph placed on the right side of the screen. You can add more content here and style it as needed.',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        // 'We produce food for Hamsters',
-        // 1000,
-        // 'We produce food for Guinea Pigs',
-        // 1000,
-        // 'We produce food for Chinchillas',
-        // 1000
-      ]}
-      wrapper="span"
-      speed={50}
-      className='textAnimation'
-      style={{ fontSize: '1.5em', display: 'inline-block', textAlign:"left", marginBottom:"70vh", width:"70%" }}
-      repeat={Infinity}
-    />
+            sequence={[
+              'Growing up watching a lot of movies made me curious about how they were made—how every shot, cut, and detail came together to create a story that I could feel. That curiosity led me to filmmaking and eventually pushed me toward editing, where I began experimenting with short films.', 
+              100,
+              'Now, nine years later, I am making short films and videos with proper equipment and a deeper understanding of framing and color grading. Looking back, I realize just how far I’ve come—yet knowing there’s still so much more to learn and explore.',
+              1000,
+              'Along the way, exploring different filmmaking styles and understanding the art of cinematography deepened my love for cinema. I’ve traveled to diverse places, capturing landscapes in their true beauty. With every frame I compose and every scene I color, I strive to tell better stories and push my creative boundaries further every time.',
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            className="textAnimation"
+            style={{ fontSize: '1.5em', display: 'inline-block', textAlign: "left", marginBottom: "70vh", width: "70%" }}
+            repeat={Infinity}
+          />
         </div>
       </div>
     </div>

@@ -1,0 +1,54 @@
+/* Grid Layout */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Default Box Style */
+  .box {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Grid Item Sizes (Increased Height by 20%) */
+  .large {
+    grid-column: span 2;
+    grid-row: span 2;
+    height: 240px;  /* Increased from 200px */
+  }
+  
+  .small {
+    height: 120px;  /* Increased from 100px */
+  }
+  
+  .tall {
+    grid-row: span 2;
+    height: 240px;  /* Increased from 200px */
+  }
+  
+  .wide {
+    grid-column: span 2;
+    height: 120px;  /* Increased from 100px */
+  }
+  
+  /* Background Colors */
+  .bg-1 { background-color: #ff6b6b; }
+  .bg-2 { background-color: #ffcc5c; }
+  .bg-3 { background-color: #88d8b0; }
+  .bg-4 { background-color: #6a0572; }
+  .bg-5 { background-color: #45aaf2; }
+  .bg-6 { background-color: #fc5c65; }
+  .bg-7 { background-color: #f7b731; }
+  .bg-8 { background-color: #20bf6b; }
+  .bg-9 { background-color: #eb3b5a; }
+  
