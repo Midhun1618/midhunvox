@@ -1,0 +1,35 @@
+.gif-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+  
+  .gif-image {
+    width: 337px; /* Equivalent to w-64 */
+    height: 400px; /* Equivalent to h-64 */
+    border-radius: 16px; /* Equivalent to rounded-2xl */
+    object-fit: cover;
+  }
+
+  .fl-image {
+    width: 337px; /* Equivalent to w-64 */
+    height: 150px; /* Equivalent to h-64 */
+    border-radius: 16px; /* Equivalent to rounded-2xl */
+    object-fit: cover;
+  }
+
+  .editortext-cont {
+    width: 40%;
+    height: 200px; /* Adjust as needed */
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    font-size: 9vw; /* Adjusts based on screen size */
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
