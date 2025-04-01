@@ -2,16 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 100vh; */
+    height: 90vh; 
   }
   
   .gif-image {
     width: 337px; /* Equivalent to w-64 */
-    height: 400px; /* Equivalent to h-64 */
+    height: 450px; /* Equivalent to h-64 */
     border-radius: 16px; /* Equivalent to rounded-2xl */
     object-fit: cover;
+    margin-right: 20vh;
   }
 
+  .fsec-container{
+    display: block;
+    justify-self: auto;
+    /* align-items: center;
+    justify-content: center; */
+  }
   .fl-image {
     width: 337px; /* Equivalent to w-64 */
     height: 150px; /* Equivalent to h-64 */
@@ -21,11 +28,10 @@
 
   .editortext-cont {
     width: 40%;
-    height: 200px; /* Adjust as needed */
-    display: flex;
+    /* height: 160px;  */
     align-items: right;
     justify-content: center;
-    font-size: 9vw; /* Adjusts based on screen size */
+    font-size: 7vw; /* Adjusts based on screen size */
     font-weight: bold;
     text-align: center;
     color: brown;

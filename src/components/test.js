@@ -1,6 +1,7 @@
 import React from "react";
 import anim from './gified.gif';
 import hill from './jammuopener.png';
+import sunsetv from  './gothambpadam.jpg'
 import "./GifComponent.css";
 
 const GifComponent = () => {
@@ -13,18 +14,16 @@ const GifComponent = () => {
         className="gif-image"
         loop="infinite"
       />
-      <div>
+      <div className="fsec-container">
       <img
         src={hill} 
         alt="Animated GIF"
-        className="fl-image"
-        loop="infinite"/>
+        className="fl-image"/>
         <div className="editortext-cont">EDITOR</div>
         <img
-          src={hill} 
+          src={sunsetv} 
           alt="Animated GIF"
-          className="fl-image"
-          loop="infinite"/>
+          className="fl-image"/>
       </div>
     </div>
       
