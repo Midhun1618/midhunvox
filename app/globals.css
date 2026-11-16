@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: auto; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+body { background: #fff; color: #12141b; font-family: 'Inter Variable', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+::selection { background: #e8502e; color: #fff; }
+:focus-visible { outline: 2px solid #e8502e; outline-offset: 3px; border-radius: 2px; }
+
+.ruler { background-image: repeating-linear-gradient(90deg, #12141b 0 1px, transparent 1px 12px), repeating-linear-gradient(90deg, #12141b 0 1px, transparent 1px 60px); background-size: 100% 6px, 100% 12px; background-position: bottom; background-repeat: no-repeat; opacity: .28; }
+
+@keyframes roleIn { from { transform: translateY(60%); opacity: 0; } to { transform: none; opacity: 1; } }
+.role-in { animation: roleIn .5s cubic-bezier(.2,.8,.2,1) both; }
+
+.cursor-ring { position: fixed; left: 0; top: 0; width: 34px; height: 34px; margin: -17px 0 0 -17px; border: 1.5px solid #e8502e; border-radius: 9999px; pointer-events: none; z-index: 200; transition: width .25s, height .25s, margin .25s, background .25s; mix-blend-mode: multiply; }
+.cursor-ring[data-hot="1"] { width: 64px; height: 64px; margin: -32px 0 0 -32px; background: rgba(232,80,46,.14); }
+
+@keyframes burst { from { transform: scaleY(.1); opacity: 1; } to { transform: scaleY(1); opacity: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
