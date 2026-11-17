@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   applicationName: "midhunvox",
   verification: {
-    google: ""
+    google: "e7aRRjQfrJxIAjKLtQT3RN9Pd6AQkDL8wvvW0Q_vIRM"
   },
   authors: [{ name: SITE.name, url: SITE.url }],
   openGraph: { type: "website", url: SITE.url, siteName: "midhunvox", title: SITE.title, description: SITE.description, images: [{ url: SITE.portrait, alt: SITE.portraitAlt }] },
