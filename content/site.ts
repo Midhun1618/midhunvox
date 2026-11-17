@@ -1,5 +1,5 @@
 export const SITE = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://midhunvox.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://midhunvox.onrender.com",
   brand: "midhunvox",
   name: "Midhun KP",
   title: "midhunvox | Midhun KP - Video Editor, Designer, Developer & Game Designer",
