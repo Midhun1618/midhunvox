@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: SITE.description,
   alternates: { canonical: "/" },
   applicationName: "midhunvox",
+  verification: {
+    google: ""
+  },
   authors: [{ name: SITE.name, url: SITE.url }],
   openGraph: { type: "website", url: SITE.url, siteName: "midhunvox", title: SITE.title, description: SITE.description, images: [{ url: SITE.portrait, alt: SITE.portraitAlt }] },
   twitter: { card: "summary_large_image", title: SITE.title, description: SITE.description, images: [SITE.portrait] },
