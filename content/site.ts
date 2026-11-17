@@ -6,7 +6,7 @@ export const SITE = {
   description:
     "midhunvox is Midhun KP, a video editor, graphic designer, Android and full-stack developer and game designer from Malappuram, Kerala. Open for freelance.",
   // TODO(asset): replace with the real portrait -> /public/midhunvox-midhun-kp-portrait.webp
-  portrait: "/midhunvox-midhun-kp-portrait.svg",
+  portrait: "/midhunvox-portrait.webp",
   portraitAlt: "Midhun KP, known as midhunvox, video editor and developer",
   location: "Malappuram, Kerala, India",
   // TODO(asset): optional muted looping reel, e.g. "/reel/hero.mp4" (under 4 MB, 1280px)
